@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Pranay</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#travel">Travel</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#ego">Enviroment</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#contact">About Me</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="container">
+        <div class="page-header" id="travel">
+            <h2 class="text-capiatalize">Places to Visit</h2>
+        </div>
+        <center>
+            <div class="travel_main">
+                <img class="img-responsive" src="trave1.jpeg">
+                <h4 class="text-capitalize"><kbd>prithvi Cafe</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left text-capitalize">18th September 2017</h5>
+                <p class="text-muted text-left">
+                    Prithvi Cafe is theatre themed cafe located in Juhu area of Mumbai. It also has a theatre next to it. I loved the ambience and the food there.</p>
+            </div>
+        </center>
+        <br />
+        <br />
+        <br />
+        <div class="page-header" id="movies">
+            <h2 class="text-capiatalize">Movies to watch</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame">
+            <span class="glyphicon glyphicon-film"></span>Avengers Endgame<i class="fa fa-sort-dec"></i>
+        </div>
+        <div id="avengers_endgame" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img class="img-responsive img-thumbnail" src="movie1.jpeg">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Excellent film to culminate MCU ride <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span> </h5>
+                <p>Saw it today with my kids and they loved it. You should have a minimal previous understanding of the movies or you’ll miss 40% of the fun. At minimum Infinity War, Civil War , Black Panther, Ant Man and the Wasp. Problem is that the whole movie is homage to all movies. Yet you will enjoy it a lot. There is at the beginning of the movie a (spoiler alert) head dismemberment that is quite impressive. But most is comic book style figand battles. You must go to bathroom just before the movie because it does last 3 hours all worth while.</p>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ego">
+            <h2 class="text-capitalize">News About Enviorment</h2>
+
+        </div>
+        <ul class="list-group">
+            <li class="list-group item list-group-item-sucsses col-lg-12 col-md-12 col-md-12 col-sm-12 col-xs-12 enviroment_li">
+                <h4>Lego plans to go green by 2025</h4><img src="e1.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-7">It's our aim that by 2025 all LEGO packaging will be made from renewable or recycled materials, will be made as efficiently as possible, and will be easy for consumers to recycle.</p>
+            </li>
+        </ul>
+        <br />
+        <br />
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize">List of Books</h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#book1">
+            <img src="s1.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Space encylopedia</p>
+        </div>
+        <div class="modal fade" id="book1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Space encyclopedia</h4>
+                    </div>
+                    <div class="modal-body">
+                      <img src="s1.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">Presenting the latest exciting findings on space exploration and research and cutting-edge, spectacular views of the universe that technology is bringing back to Earth, all in one ultimate reference book. Authored by David A. Aguilar of the Harvard-Smithsonian Center for Astrophysics, the National Geographic Space Encyclopedia is ideal for the family bookshelf, providing both accessible information for school reports and compelling reading on the mysteries beyond our world.</p>
+                        <a href="https://www.amazon.in/Space-Encyclopedia-System-National-Geographic/dp/1426315600" target="_blank"><i>Buy on Amazon</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d143782.0057580689!2d8.940527357982717!3d55.730810365652424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b7223afe241b3%3A0x89be7375803be832!2s7190%20Billund%2C%20Denmark!5e0!3m2!1sen!2sin!4v1600958272687!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <hr style="width: 100%;">
+            <img src="e1.jpeg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Pranay</h3>
+
+            <div class="contact_1">
+
+                <a href="mailto:my@gmail.com?Subject=Hello">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+                </a>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>
